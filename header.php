@@ -64,7 +64,7 @@
                                     <!-- Brand and toggle get grouped for better mobile display -->
                                     <!-- original <div class="navbar-header"> -->
                                         <div class="navbar-header w-100">
-                                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <button type="button" class="navbar-toggle collapsed button-menu" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                                 <span class="sr-only"><?php echo esc_html('Toggle navigation', 'corporate-landing-page') ?></span>
                                                 <span class="icon-bar"></span>
                                                 <span class="icon-bar"></span>
@@ -72,7 +72,7 @@
                                             </button>
                                         </div>
                                         <!-- Collect the nav links, forms, and other content for toggling -->
-                                        <div class="collapse navbar-collapse pr-menu" id="bs-example-navbar-collapse-1">
+                                        <div class="collapse navbar-collapse pr-menu margin-right-sub-menu" id="bs-example-navbar-collapse-1">
                                          <?php
                                          $defaults = array(
                                             'theme_location'    => 'menu-1',
