@@ -4608,12 +4608,21 @@ ul {
 
 /* Inicio logo media query jc*/
 
+/*@media (max-width: 399px){
+  .width-logo{
+    width: 200px;
+    padding-top: 5px;
+  }
 
-@media (min-width: 400px){
+}*/
+
+@media (min-width: 400px) {
   .width-logo{
     width: 300px;
   }
+
 }
+
 
 @media (min-width: 357px) and (max-width: 399px){
   .width-logo{
@@ -4633,7 +4642,13 @@ ul {
 
 @media (min-width: 279px) and (max-width: 299px){
   .width-logo{
-    width: 180px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 278px){
+  .width-logo{
+    width: 140px !important;
   }
 }
 
@@ -4673,16 +4688,6 @@ ul {
   }
 }
 
-
-
-/*@media (min-width: 390px) and (max-width: 456px){
-  .width-logo-movil{
-    width: 10%;
-  }
-  .width-menu{
-    width: 90%;
-  }
-}*/
 /* Desde el 374 hasta 456 va bien*/
 @media (max-width: 456px){
   .width-logo-movil{
@@ -4734,7 +4739,15 @@ ul {
   height: auto;
 }
 
-@media (min-width: 300px) and (max-width: 356px){
+/*@media (min-width: 300px) and (max-width: 356px){
+  .logo-menu{
+    position: relative;
+    margin-left: 40px;
+    margin-top: -60px !important;
+  }
+}*/
+
+@media (max-width: 356px){
   .logo-menu{
     position: relative;
     margin-left: 40px;
